@@ -1,6 +1,6 @@
 "use client";
 
-export default function () {
+export default function Intro() {
   return (
     <div className="font-sans min-h-screen grid place-items-center p-12">
       <div className="grid gap-y-4 text-center">

@@ -1,6 +1,6 @@
 "use client";
 
-export default function () {
+export default function Floating() {
   return (
     <nav className="fixed top-0 w-full  text-white shadow-md">
       <div className="flex justify-center items-center p-4 border">
