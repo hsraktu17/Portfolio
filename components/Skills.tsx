@@ -1,7 +1,7 @@
 "use client"
 
 export default function Skills(){
-    return <div className="text-2xl flex justify-center items-center h-screen">
+    return <div className="text-2xl flex justify-center items-center h-max">
         <div className="text-center">
             <div className="font-semibold">
                 Skills

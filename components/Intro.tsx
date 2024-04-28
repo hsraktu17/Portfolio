@@ -7,6 +7,14 @@ import { FaXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 
 export default function Intro() {
+
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
   return (
     <div className="font-sans min-h-screen grid place-items-center p-12">
       <div className="grid gap-y-4 text-center">
@@ -23,7 +31,7 @@ export default function Intro() {
           <a className="px-6 py-3 border border-gray-500 rounded-full hover:bg-gray-500 hover:text-white transition duration-300 ease-in-out" href="#">Resume</a>
         </div>
         <div className="bottom-0 left-0 right-0 flex justify-center mt-40 mb-8">
-        <a href="#about" aria-label="Scroll to about section">
+        <button aria-label="Scroll to about section" onClick={scrollToAbout}>
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-black dark:border-white flex justify-center items-center p-2">
             <motion.div 
               animate={{ y: [0, 20, 0] }}
@@ -31,7 +39,7 @@ export default function Intro() {
               className="w-3 h-3 rounded-full bg-white"
             />
           </div>
-        </a>
+        </button>
       </div>
       </div>
     </div>

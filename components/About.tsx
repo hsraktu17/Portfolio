@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-      <div className="flex justify-center">
+      <div className="flex justify-center" id="about">
         <motion.section
           className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
           initial={{ opacity: 0, y: 100 }}
@@ -20,7 +20,7 @@ export default function About() {
               Transitioning into the realm of software development, I initially explored mobile development but soon found myself drawn to the vast opportunities of web development. Immersing myself in HTML, CSS, and JavaScript, I began crafting dynamic and engaging web applications. A pivotal moment in my journey came when I embarked on building a Spotify clone, a project that not only refined my skills but also ignited a deep-seated passion for full-stack development.
             </p>
           </div>
-          <div>
+          <div className="mb-3 text-lg">
             With ReactJS, Express, and Node.js as my companions, I ventured into the world of full-stack development. Embracing the intricacies of the MERN stack—MongoDB, Express.js, React, and Node.js—I broadened my horizons, transitioning from a frontend focus to tackling both frontend and backend challenges. This journey continues to fuel my drive to craft innovative and impactful web solutions.
           </div>
         </motion.section>
