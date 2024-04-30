@@ -19,7 +19,8 @@ const skillsData = [
   "PostgreSQL",
   "Recoil",
   "Express",
-  "Serverless Backend"
+  "Serverless Backend",
+  "Docker"
 ];
 
 const SkillsSection: React.FC = () => {
