@@ -28,7 +28,7 @@ export default function Intro() {
           <a className="px-6 py-3 border border-gray-500 rounded-full hover:bg-gray-500 hover:text-white transition duration-300 ease-in-out" href="https://leetcode.com/Utkarsh172/"><SiLeetcode/></a>
         </div>
         <div>
-          <a className="px-6 py-3 border border-gray-500 rounded-full hover:bg-gray-500 hover:text-white transition duration-300 ease-in-out" href="https://drive.google.com/file/d/1vNFkPkfoi4CVE68f4Ggb3El8SKWvwQLP/view?usp=sharing">Resume</a>
+          <a className="px-6 py-3 border border-gray-500 rounded-full hover:bg-gray-500 hover:text-white transition duration-300 ease-in-out" href="https://drive.google.com/file/d/1SCSpddd0v2Dm7YhWdwYvNiskBdn90woK/view?usp=sharing">Resume</a>
         </div>
         <div className="bottom-0 left-0 right-0 flex justify-center mt-40 mb-8">
         <button aria-label="Scroll to about section" onClick={scrollToAbout}>
