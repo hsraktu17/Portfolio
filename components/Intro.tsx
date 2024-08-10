@@ -57,7 +57,7 @@ export default function Intro() {
         <div>
           <a
             className="px-6 py-3 border border-gray-500 rounded-full hover:bg-gray-500 hover:text-white transition duration-300 ease-in-out"
-            href="https://drive.google.com/file/d/15k8x3UaU0-U_2kdW6uJ2b3yV6z9Tvgcc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1jjAq5twxyQNPxBVgMes-0nQYn6SugNgS/view?usp=sharing"
           >
             Resume
           </a>
